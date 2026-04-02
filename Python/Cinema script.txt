@@ -1,0 +1,13 @@
+classificacao = input("Dugite a classificação do filme (G, PG, R): ")
+
+if classificacao == "G":
+    mensagem = "apropriado para todas as idades."
+elif classificacao == "PG":
+    mensagem = "crianças menores de 10 anos devem estar acompanhadas. "
+elif classificacao == "R":
+    mensagem = "Apenas para maiores de 18 anos."
+else :
+    mensagem = "Classificacao desconecida. "
+    
+print(mensagem)
+    
